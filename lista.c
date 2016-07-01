@@ -21,7 +21,7 @@ struct no *buscar(struct no *lista, int valor);
 
 int j;
 //------------------------------------------------------------------------------
-/* ------- Menu de opções ------- */
+/* ------- Menu de opÃ§Ãµes ------- */
 void menu(){
      system("color 17");
      
@@ -117,7 +117,7 @@ void add_fim(struct no **lista, int valor){
 	pNavegar = *lista;
 
 	if((pNow = malloc(sizeof(struct no))) == NULL){
-		printf("\nMemory Failure\n");
+		printf("\nMemoria Insuficiente\n");
 	}
 	else{
 		pNow->num = valor;
